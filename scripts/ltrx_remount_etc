@@ -13,4 +13,3 @@ mount -n -t tmpfs tmpfs $MOUNTPOINT
 cp -a /etc/. $MOUNTPOINT
 # Mount over original /etc/
 mount --move $MOUNTPOINT /etc
-
